@@ -138,7 +138,7 @@ def main():
     chain = tree.getChain(base_link, end_link)
     print("Root link: %s; Random end link: %s" % (base_link, end_link))
     for i in range(chain.getNrOfSegments()):
-        print chain.getSegment(i).getName()
+        print(chain.getSegment(i).getName())
 
 if __name__ == "__main__":
     main()
